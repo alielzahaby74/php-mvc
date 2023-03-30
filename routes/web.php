@@ -1,8 +1,6 @@
 <?php
 
 use src\Http\Route;
+use App\controllers\HomeController;
 
-
-Route::get('/', function(){
-    return 'hello world';
-});
+Route::get('/home', [HomeController::class, 'index']);
