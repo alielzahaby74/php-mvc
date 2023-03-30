@@ -1,0 +1,13 @@
+{
+    "name": "elzahaby/php-mvc",
+    "require": {
+        "vlucas/phpdotenv": "^5.5",
+        "symfony/var-dumper": "^6.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "app\\": "App/",
+            "src\\": "src/"
+        }
+    }
+}
